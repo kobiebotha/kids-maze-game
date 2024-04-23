@@ -8,7 +8,6 @@
     position: absolute;
     border-radius: 50%;
     transition: transform 0.2s;
-    animation: colorChange 10s infinite;
 }
 
 .circle:hover {
@@ -17,7 +16,7 @@
     transition: transform 0.2s, opacity 0.2s;
 }
 
-@keyframes colorChange {
+/* @keyframes colorChange {
     0%   { background-color: red; }
     14%  { background-color: orange; }
     28%  { background-color: yellow; }
@@ -26,4 +25,34 @@
     71%  { background-color: indigo; }
     85%  { background-color: violet; }
     100% { background-color: red; }
+} */
+
+/* body, html {
+    cursor: url('images/cursor.png'), auto;
+} */
+
+body, html {
+    /* Set the cursor to default for the entire page */
+    cursor: default;
+}
+
+.lightning {
+    position: absolute;
+    transition: opacity 0.2s;
+    /* Adjust width and height as needed */
+    width: 50px;
+    height: 100px;
+}
+
+.lightning:hover {
+    opacity: 0; /* Make lightning bolt disappear on hover */
+}
+
+#startButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    font-size: 20px;
 }

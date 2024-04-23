@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "watch": "npx tsc index.ts --watch"
+  },
   "dependencies": {
     "typescript": "^5.3.2"
   }
