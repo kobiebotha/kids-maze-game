@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (currentColorIndex >= rainbowColors.length) {
                         const tada = new Audio('sounds/tada.wav');
                         tada.play();
-                        alert('Game Over! You completed the rainbow order.');
+                        // alert('Game Over! You completed the rainbow order.');
                     }
                 }
             }
