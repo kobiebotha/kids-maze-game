@@ -1,3 +1,4 @@
+// good code
 document.addEventListener('DOMContentLoaded', () => {
     const gameArea = document.getElementById('gameArea') as HTMLElement;
     const startButton = document.getElementById('startButton') as HTMLButtonElement;
